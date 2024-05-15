@@ -1,0 +1,61 @@
+.poker-tracker{
+  background-color: antiquewhite;
+  border-collapse: collapse;
+  min-width: 750px;
+}
+
+.poker-tracker *{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+
+.poker-tracker th {
+  text-align: left;
+  padding: 10px 20px;
+  border-bottom: 2px solid gray ;
+}
+
+.poker-tracker td {  
+  padding: 5px;}
+  
+
+.input,
+.delete-entry{
+  height: 30px;
+  font-size: 15px;
+  padding: 0 10px;
+  margin: 0;
+  box-sizing:border-box
+}
+
+.input{
+  border: 1.5px solid gray;
+  border-radius: 10px;
+  outline: none;
+}
+.input:focus{
+  border-color: blueviolet;
+}
+
+.delete-entry{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  background-color:rgb(241, 238, 238);
+  color: red;  
+  border-radius: 50%;
+  cursor: pointer;
+}
+.delete-entry:hover{
+  background-color: lightpink;
+}
+
+.controls, .summary{
+  text-align: right;
+}
+
+.new-entry{
+  font-size:medium;
+  border: 1.5px solid gray;
+  border-radius: 10px;
+  padding: 7px;
+}
